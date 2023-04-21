@@ -1,0 +1,11 @@
+.search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #dc0000;
+    border: none;
+    color: white;
+    height: 100%;
+    padding: 0px 10px;
+    border-radius: 0px 8px 8px 0;
+}

@@ -1,0 +1,20 @@
+.services{
+    margin: 50px;
+    padding:100px;
+    height: 70vh;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+    line-height: 1.8;
+    text-align: center;
+}
+@media all and (max-width:768px){
+    .services{
+        padding: 40px 20px 100px;
+        height: 250px;
+    }
+}
+.services-title{
+    padding: 30px 0;
+    font-size: 18px;
+    color: #DC0000;
+}

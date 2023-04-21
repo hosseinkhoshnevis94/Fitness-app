@@ -1,0 +1,39 @@
+.nav-item {
+  padding: 0px 10px;
+  color: #1b1b1b;
+}
+
+.nav-item {
+  background-color: white;
+  padding: 12px 23px;
+  border-radius: 16px;
+  transition: all 0.2s;
+}
+.nav-item:hover{
+  box-shadow: 0px 2px 4px -1px #afafaf;
+}
+.join-btn{
+  transition: all 0.3s;
+  border: 2px solid #6b0000;
+  cursor: pointer;
+}
+.join-btn:hover{
+  color: white;
+  background-color: #6b0000;
+  border: 2px solid #2f2f2f
+}
+.hamberger-menu{
+  font-size: 30px !important;
+padding: 4px ;
+border: 1px solid #6b6b6b;
+border-radius: 16px;
+color: #2f2f2f;
+}
+@media all and (max-width:768px){
+
+  .nav-item:nth-child(3),
+  .nav-item:nth-child(4),
+  .nav-item:nth-child(5){
+    display: none;
+  }
+}
